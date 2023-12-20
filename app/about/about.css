@@ -1,0 +1,41 @@
+.about-page {
+  padding: 20px;
+  background-color: #e9dbd7;
+  max-width: 800px;
+  margin: 2% auto;
+  position: relative;
+  top: 12%;
+  font-family: Arial, sans-serif;
+}
+
+.about-page h1 {
+  font-size: 2.3em;
+  margin-bottom: 15px;
+}
+
+.about-page h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-page p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-page ul {
+  margin-bottom: 15px;
+}
+
+.about-page li {
+  margin-bottom: 8px;
+
+  text-align: start;
+}
+a {
+  text-decoration: none;
+  color: rgb(16, 16, 139);
+  font-weight: 700;
+  margin-left: 4px;
+}

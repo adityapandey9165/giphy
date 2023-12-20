@@ -1,0 +1,156 @@
+/* Input styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 100%;
+  height: 74px;
+  justify-content: space-between;
+  display: flex;
+  background: #0e0e0e;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+li {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-self: end;
+}
+.sign-in {
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+  background-color: #6b5757;
+  width: 250px;
+  border-radius: 24px;
+  height: 53px;
+  font-family: sans-serif;
+  padding: 1px;
+  flex-shrink: 0;
+}
+svg {
+  align-items: center;
+  text-align: center;
+  margin: 2px;
+  border: 0.5px;
+  border-color: black;
+  border-radius: 100%;
+  margin-right: 7px;
+  width: 42px;
+  height: 40.32px;
+  background: url("../nav/google.png"), #ffffff12 50% / cover no-repeat;
+  flex-shrink: 0;
+}
+.loggedin {
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  margin-right: 20px; /* Change padding to margin */
+}
+
+.sign-out {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #8d5f5f;
+  width: 129px;
+  border-radius: 24px;
+  height: 53px;
+  font-family: sans-serif;
+  padding: 1px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-out:hover {
+  background-color: #b3a8a8; /* Change background on hover */
+}
+
+.sign-in:hover {
+  background-color: #8c6f6f; /* Change background on hover */
+}
+
+.nav-item {
+  padding-left: 35px;
+  padding-right: 33px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* styles.css */
+
+/* Reset styles */
+
+/* Main container */
+/* Main container */
+.main-container {
+  background-color: #836161; /* Define your background color */
+  padding: 28px; /* Add padding or other styles */
+}
+
+/* Input styles */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Example border */
+  border-radius: 5px; /* Example border radius */
+  /* Add other input styles */
+}
+
+/* GIFs container */
+
+/* Load More button */
+.load-more-btn {
+  padding: 10px 20px;
+  margin-top: 20px; /* Example margin */
+  background-color: #682fa1; /* Example button background color */
+  color: #fff; /* Example button text color */
+  border: none; /* Example border */
+  border-radius: 4px; /* Example border radius */
+  cursor: pointer;
+  /* Other Load More button styles */
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Set the desired height to create space */
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #c21919; /* Change the color as needed */
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+/* Keyframe animation for the spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
