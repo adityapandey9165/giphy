@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Next.js Application with Firebase Authentication and GIPHY API Integration
 
-First, run the development server:
+This project is a Next.js application that integrates Firebase Authentication for user login and registration, along with GIPHY API integration for GIF search functionality. It allows users to search for GIFs, authenticate using Firebase, and perform additional tasks like marking favorites, implementing hot search, and loading animations.
+# About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+👋 Hello! I'm Aditya, a final-year computer science student passionate about crafting exceptional web experiences. With a focus on full-stack development, I bring a solid foundation in Web development and a diverse skill set, poised to make meaningful contributions in the tech industry.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Skill used in this project are-
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    Next.js             React.js
+    Firebase            JavaScript
+    Figma UI            CSS
+    API Integration     HTML
+    MongoDB             Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation and Setup
 
-## Learn More
+Clone the repository: git clone [repository_link]
 
-To learn more about Next.js, take a look at the following resources:
+Install dependencies: npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Set up Firebase:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    Create a Firebase account and set up a new project.
 
-## Deploy on Vercel
+    Obtain Firebase configuration credentials and replace them in firebase.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Run the app: npm run dev
+    
+     
+## Demo and Hosting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Demo URL: https://gifs-kappa.vercel.app/
+
+
+## Features
+
+Firebase Authentication: Enables users to log in or sign up using their email and password.
+
+GIPHY API Integration: Displays a gallery of GIFs based on user-searched keywords.
+
+Optional Tasks Implemented:
+
+    Favorites Functionality: Users can mark individual GIFs as favorites.
+
+    Hot Search: Dynamically updates GIFs as the user types in the search bar.
+
+    
+## 🔗 Contact Me
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adityapandey9165/)
